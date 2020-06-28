@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: api-gateway
+  cloud:
+    nacos:
+      config:
+        file-extension: yml
+        server-addr: 127.0.0.1:8848
+        group: SPRINGCLOUD_ALIBABA_STARTER
+        namespace: a811c3cf-5d16-416f-ba1c-2ea45f954c4e
